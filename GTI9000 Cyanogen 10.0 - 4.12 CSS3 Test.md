@@ -183,13 +183,14 @@ Supported
 ### Fonts _13%_
 
 #### Properties
-unicode-range
+
+* unicode-range
 
 #### @Rules
 
 * @font-face
 
-### Writing Models _31%_
+### Writing Modes _31%_
 
 #### Properties
 
