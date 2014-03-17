@@ -22,7 +22,7 @@ REST Client spec
             module: "rest/interceptor/defaultRequest",
             config: {
               params:
-                api_key: { $ref: "apiKey" }
+                api_key: { $ref: "apiKey" } // This will not work :(
             }
           }
       ]
