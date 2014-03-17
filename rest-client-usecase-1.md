@@ -1,5 +1,5 @@
-Example use-case for injecting configuration into REST client
-=============================================================
+Wish this was possible
+======================
 
 Config spec
 -----------
