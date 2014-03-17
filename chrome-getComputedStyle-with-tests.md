@@ -1,0 +1,523 @@
+Chrome getComputedStyle with tests
+==================================
+
+* [background-attachment](http://css-infos.net/property/background-attachment)
+    * scroll
+    * fixed
+    * local
+* [background-clip](http://css-infos.net/property/background-clip)
+    * border-box
+    * padding-box
+    * content-box
+* [background-color](http://css-infos.net/property/background-color)
+    * transparent
+    * inherit
+* [background-image](http://css-infos.net/property/background-image)
+* [background-origin](http://css-infos.net/property/background-origin)
+    * padding-box
+    * border-box
+    * content-box
+* [background-position](http://css-infos.net/property/background-position)
+* [background-repeat](http://css-infos.net/property/background-repeat)
+    * repeat
+    * no-repeat
+    * repeat-x
+    * repeat-y
+    * round
+    * space
+* [background-size](http://css-infos.net/property/background-size)
+    * auto
+    * contain
+    * cover
+* [border-bottom-color](http://css-infos.net/property/border-bottom-color)
+    * transparent
+    * inherit
+* [border-bottom-left-radius](http://css-infos.net/property/border-bottom-left-radius)
+* [border-bottom-right-radius](http://css-infos.net/property/border-bottom-right-radius)
+* [border-bottom-style](http://css-infos.net/property/border-bottom-style)
+    * dashed
+    * outset
+    * solid
+    * double
+    * none
+    * groove
+    * hidden
+    * ridge
+    * dotted
+    * inset
+* [border-bottom-width](http://css-infos.net/property/border-bottom-width)
+* [border-collapse](http://css-infos.net/property/border-collapse)
+    * separate
+    * collapse
+    * inherit
+* [border-image-outset](http://css-infos.net/property/border-image-outset)
+* [border-image-repeat](http://css-infos.net/property/border-image-repeat)
+* [border-image-slice](http://css-infos.net/property/border-image-slice)
+* [border-image-source](http://css-infos.net/property/border-image-source)
+* [border-image-width](http://css-infos.net/property/border-image-width)
+* [border-left-color](http://css-infos.net/property/border-left-color)
+    * transparent
+    * inherit
+* [border-left-style](http://css-infos.net/property/border-left-style)
+    * dashed
+    * outset
+    * solid
+    * double
+    * none
+    * groove
+    * hidden
+    * ridge
+    * dotted
+    * inset
+* [border-left-width](http://css-infos.net/property/border-left-width)
+* [border-right-color](http://css-infos.net/property/border-right-color)
+    * transparent
+    * inherit
+* [border-right-style](http://css-infos.net/property/border-right-style)
+    * dashed
+    * outset
+    * solid
+    * double
+    * none
+    * groove
+    * hidden
+    * ridge
+    * dotted
+    * inset
+* [border-right-width](http://css-infos.net/property/border-right-width)
+* [border-top-color](http://css-infos.net/property/border-top-color)
+    * transparent
+    * inherit
+* [border-top-left-radius](http://css-infos.net/property/border-top-left-radius)
+* [border-top-right-radius](http://css-infos.net/property/border-top-right-radius)
+* [border-top-style](http://css-infos.net/property/border-top-style)
+    * dashed
+    * outset
+    * solid
+    * double
+    * none
+    * groove
+    * hidden
+    * ridge
+    * dotted
+    * inset
+* [border-top-width](http://css-infos.net/property/border-top-width)
+* [bottom](http://css-infos.net/property/bottom)
+* [box-shadow](http://css-infos.net/property/box-shadow)
+* [box-sizing](http://css-infos.net/property/box-sizing)
+* [caption-side](http://css-infos.net/property/caption-side)
+    * inherit
+    * top
+    * bottom
+* [clear](http://css-infos.net/property/clear)
+    * both
+    * inherit
+    * none
+    * left
+    * right
+* [clip](http://css-infos.net/property/clip)
+* [color](http://css-infos.net/property/color)
+* [cursor](http://css-infos.net/property/cursor)
+* [direction](http://css-infos.net/property/direction)
+* [display](http://css-infos.net/property/display)
+    * inline-flex
+    * block
+    * list-item
+    * none
+    * inline-block
+    * inherit
+    * flex
+    * inline
+    * -webkit-box
+    * table
+    * inline-table
+    * table-row-group
+    * table-column
+    * table-column-group
+    * table-header-group
+    * table-footer-group
+    * table-row
+* [empty-cells](http://css-infos.net/property/empty-cells)
+    * hide
+    * show
+* [float](http://css-infos.net/property/float)
+    * none
+    * left
+    * right
+* [font-family](http://css-infos.net/property/font-family)
+* [font-size](http://css-infos.net/property/font-size)
+* [font-style](http://css-infos.net/property/font-style)
+* [font-variant](http://css-infos.net/property/font-variant)
+* [font-weight](http://css-infos.net/property/font-weight)
+* [height](http://css-infos.net/property/height)
+* [image-rendering](http://css-infos.net/property/image-rendering)
+* [left](http://css-infos.net/property/left)
+* [letter-spacing](http://css-infos.net/property/letter-spacing)
+* [line-height](http://css-infos.net/property/line-height)
+* [list-style-image](http://css-infos.net/property/list-style-image)
+* [list-style-position](http://css-infos.net/property/list-style-position)
+* [list-style-type](http://css-infos.net/property/list-style-type)
+* [margin-bottom](http://css-infos.net/property/margin-bottom)
+* [margin-left](http://css-infos.net/property/margin-left)
+* [margin-right](http://css-infos.net/property/margin-right)
+* [margin-top](http://css-infos.net/property/margin-top)
+* [max-height](http://css-infos.net/property/max-height)
+* [max-width](http://css-infos.net/property/max-width)
+* [min-height](http://css-infos.net/property/min-height)
+* [min-width](http://css-infos.net/property/min-width)
+* [object-fit](http://css-infos.net/property/object-fit)
+* [object-position](http://css-infos.net/property/object-position)
+* [opacity](http://css-infos.net/property/opacity)
+* [orphans](http://css-infos.net/property/orphans)
+* [outline-color](http://css-infos.net/property/outline-color)
+* [outline-offset](http://css-infos.net/property/outline-offset)
+* [outline-style](http://css-infos.net/property/outline-style)
+    * solid
+    * inherit
+    * double
+    * auto
+    * groove
+    * none
+    * ridge
+    * dotted
+    * inset
+    * dashed
+    * outset
+* [outline-width](http://css-infos.net/property/outline-width)
+* [overflow-wrap](http://css-infos.net/property/overflow-wrap)
+* [overflow-x](http://css-infos.net/property/overflow-x)
+* [overflow-y](http://css-infos.net/property/overflow-y)
+* [padding-bottom](http://css-infos.net/property/padding-bottom)
+* [padding-left](http://css-infos.net/property/padding-left)
+* [padding-right](http://css-infos.net/property/padding-right)
+* [padding-top](http://css-infos.net/property/padding-top)
+* [page-break-after](http://css-infos.net/property/page-break-after)
+    * left
+    * right
+    * auto
+    * inherit
+    * always
+    * avoid
+* [page-break-before](http://css-infos.net/property/page-break-before)
+    * auto
+    * inherit
+    * always
+    * avoid
+    * left
+* [page-break-inside](http://css-infos.net/property/page-break-inside)
+* [pointer-events](http://css-infos.net/property/pointer-events)
+    * stroke
+    * auto
+    * visible
+    * none
+    * painted
+    * all
+    * fill
+* [position](http://css-infos.net/property/position)
+* [resize](http://css-infos.net/property/resize)
+* [right](http://css-infos.net/property/right)
+* [speak](http://css-infos.net/property/speak)
+* [table-layout](http://css-infos.net/property/table-layout)
+    * auto
+    * fixed
+    * inherit
+* [tab-size](http://css-infos.net/property/tab-size)
+* [text-align](http://css-infos.net/property/text-align)
+    * start
+    * end
+    * left
+    * right
+    * justify
+* [text-decoration](http://css-infos.net/property/text-decoration)
+    * line-through
+    * blink
+    * none
+    * underline
+    * overline
+* [text-indent](http://css-infos.net/property/text-indent)
+* [text-rendering](http://css-infos.net/property/text-rendering)
+* [text-shadow](http://css-infos.net/property/text-shadow)
+* [text-overflow](http://css-infos.net/property/text-overflow)
+    * clip
+    * ellipsis
+* [text-transform](http://css-infos.net/property/text-transform)
+* [top](http://css-infos.net/property/top)
+* [touch-action-delay](http://css-infos.net/property/touch-action-delay)
+* [transition-delay](http://css-infos.net/property/transition-delay)
+* [transition-duration](http://css-infos.net/property/transition-duration)
+* [transition-property](http://css-infos.net/property/transition-property)
+* [transition-timing-function](http://css-infos.net/property/transition-timing-function)
+* [unicode-bidi](http://css-infos.net/property/unicode-bidi)
+    * normal
+    * embed
+    * bidi-override
+* [vertical-align](http://css-infos.net/property/vertical-align)
+* [visibility](http://css-infos.net/property/visibility)
+* [white-space](http://css-infos.net/property/white-space)
+    * pre
+    * pre-line
+    * pre-wrap
+    * normal
+    * nowrap
+* [widows](http://css-infos.net/property/widows)
+    * inherit
+* [width](http://css-infos.net/property/width)
+* [word-break](http://css-infos.net/property/word-break)
+    * normal
+    * break-all
+* [word-spacing](http://css-infos.net/property/word-spacing)
+* [word-wrap](http://css-infos.net/property/word-wrap)
+    * normal
+    * break-word
+* [z-index](http://css-infos.net/property/z-index)
+* [zoom](http://css-infos.net/property/zoom)
+* [-webkit-animation-delay](http://css-infos.net/property/-webkit-animation-delay)
+* [-webkit-animation-direction](http://css-infos.net/property/-webkit-animation-direction)
+    * alternate
+    * alternate-reverse
+    * normal
+    * reverse
+* [-webkit-animation-duration](http://css-infos.net/property/-webkit-animation-duration)
+* [-webkit-animation-fill-mode](http://css-infos.net/property/-webkit-animation-fill-mode)
+* [-webkit-animation-iteration-count](http://css-infos.net/property/-webkit-animation-iteration-count)
+* [-webkit-animation-name](http://css-infos.net/property/-webkit-animation-name)
+* [-webkit-animation-play-state](http://css-infos.net/property/-webkit-animation-play-state)
+    * running
+    * paused
+* [-webkit-animation-timing-function](http://css-infos.net/property/-webkit-animation-timing-function)
+    * step-end
+    * ease-out
+    * ease-in-out
+    * ease
+    * linear
+    * step-start
+    * ease-in
+* [-webkit-appearance](http://css-infos.net/property/-webkit-appearance)
+    * none
+    * button
+    * listbox
+    * button-bevel
+    * checkbox
+* [-webkit-backface-visibility](http://css-infos.net/property/-webkit-backface-visibility)
+    * hidden
+    * visible
+* [-webkit-background-clip](http://css-infos.net/property/-webkit-background-clip)
+    * border-box
+    * padding-box
+    * content-box
+* [-webkit-background-composite](http://css-infos.net/property/-webkit-background-composite)
+* [-webkit-background-origin](http://css-infos.net/property/-webkit-background-origin)
+    * padding-box
+    * border-box
+    * content-box
+* [-webkit-background-size](http://css-infos.net/property/-webkit-background-size)
+* [-webkit-border-fit](http://css-infos.net/property/-webkit-border-fit)
+* [-webkit-border-horizontal-spacing](http://css-infos.net/property/-webkit-border-horizontal-spacing)
+* [-webkit-border-image](http://css-infos.net/property/-webkit-border-image)
+* [-webkit-border-vertical-spacing](http://css-infos.net/property/-webkit-border-vertical-spacing)
+* [-webkit-box-align](http://css-infos.net/property/-webkit-box-align)
+    * baseline
+    * center
+    * end
+    * start
+    * stretch
+* [-webkit-box-decoration-break](http://css-infos.net/property/-webkit-box-decoration-break)
+* [-webkit-box-direction](http://css-infos.net/property/-webkit-box-direction)
+    * normal
+    * reverse
+    * inherit
+* [-webkit-box-flex](http://css-infos.net/property/-webkit-box-flex)
+    * 1
+* [-webkit-box-flex-group](http://css-infos.net/property/-webkit-box-flex-group)
+    * 1
+* [-webkit-box-lines](http://css-infos.net/property/-webkit-box-lines)
+    * single
+    * multiple
+* [-webkit-box-ordinal-group](http://css-infos.net/property/-webkit-box-ordinal-group)
+    * 1
+* [-webkit-box-orient](http://css-infos.net/property/-webkit-box-orient)
+    * block-axis
+    * inherit
+    * horizontal
+    * vertical
+    * inline-axis
+* [-webkit-box-pack](http://css-infos.net/property/-webkit-box-pack)
+    * start
+    * end
+    * center
+    * justify
+* [-webkit-box-reflect](http://css-infos.net/property/-webkit-box-reflect)
+* [-webkit-box-shadow](http://css-infos.net/property/-webkit-box-shadow)
+* [-webkit-clip-path](http://css-infos.net/property/-webkit-clip-path)
+* [-webkit-column-break-after](http://css-infos.net/property/-webkit-column-break-after)
+    * right
+    * auto
+    * always
+    * avoid
+    * left
+* [-webkit-column-break-before](http://css-infos.net/property/-webkit-column-break-before)
+    * auto
+    * always
+    * avoid
+    * left
+    * right
+* [-webkit-column-break-inside](http://css-infos.net/property/-webkit-column-break-inside)
+    * auto
+    * avoid
+* [-webkit-column-axis](http://css-infos.net/property/-webkit-column-axis)
+* [-webkit-column-count](http://css-infos.net/property/-webkit-column-count)
+    * 2
+    * auto
+* [-webkit-column-gap](http://css-infos.net/property/-webkit-column-gap)
+    * normal
+    * 2px
+* [-webkit-column-progression](http://css-infos.net/property/-webkit-column-progression)
+* [-webkit-column-rule-color](http://css-infos.net/property/-webkit-column-rule-color)
+* [-webkit-column-rule-style](http://css-infos.net/property/-webkit-column-rule-style)
+    * outset
+    * solid
+    * hidden
+    * double
+    * groove
+    * none
+    * ridge
+    * dotted
+    * inset
+    * dashed
+* [-webkit-column-rule-width](http://css-infos.net/property/-webkit-column-rule-width)
+* [-webkit-column-span](http://css-infos.net/property/-webkit-column-span)
+* [-webkit-column-width](http://css-infos.net/property/-webkit-column-width)
+* [-webkit-filter](http://css-infos.net/property/-webkit-filter)
+* [align-content](http://css-infos.net/property/align-content)
+* [align-items](http://css-infos.net/property/align-items)
+* [align-self](http://css-infos.net/property/align-self)
+* [flex-basis](http://css-infos.net/property/flex-basis)
+* [flex-grow](http://css-infos.net/property/flex-grow)
+* [flex-shrink](http://css-infos.net/property/flex-shrink)
+* [flex-direction](http://css-infos.net/property/flex-direction)
+* [flex-wrap](http://css-infos.net/property/flex-wrap)
+* [justify-content](http://css-infos.net/property/justify-content)
+* [-webkit-font-kerning](http://css-infos.net/property/-webkit-font-kerning)
+* [-webkit-font-smoothing](http://css-infos.net/property/-webkit-font-smoothing)
+* [-webkit-font-variant-ligatures](http://css-infos.net/property/-webkit-font-variant-ligatures)
+* [-webkit-highlight](http://css-infos.net/property/-webkit-highlight)
+* [-webkit-hyphenate-character](http://css-infos.net/property/-webkit-hyphenate-character)
+* [-webkit-line-align](http://css-infos.net/property/-webkit-line-align)
+* [-webkit-line-box-contain](http://css-infos.net/property/-webkit-line-box-contain)
+* [-webkit-line-break](http://css-infos.net/property/-webkit-line-break)
+    * normal
+    * strict
+* [-webkit-line-clamp](http://css-infos.net/property/-webkit-line-clamp)
+* [-webkit-line-grid](http://css-infos.net/property/-webkit-line-grid)
+* [-webkit-line-snap](http://css-infos.net/property/-webkit-line-snap)
+* [-webkit-locale](http://css-infos.net/property/-webkit-locale)
+* [-webkit-margin-before-collapse](http://css-infos.net/property/-webkit-margin-before-collapse)
+* [-webkit-margin-after-collapse](http://css-infos.net/property/-webkit-margin-after-collapse)
+* [-webkit-mask-box-image](http://css-infos.net/property/-webkit-mask-box-image)
+* [-webkit-mask-box-image-outset](http://css-infos.net/property/-webkit-mask-box-image-outset)
+* [-webkit-mask-box-image-repeat](http://css-infos.net/property/-webkit-mask-box-image-repeat)
+* [-webkit-mask-box-image-slice](http://css-infos.net/property/-webkit-mask-box-image-slice)
+* [-webkit-mask-box-image-source](http://css-infos.net/property/-webkit-mask-box-image-source)
+* [-webkit-mask-box-image-width](http://css-infos.net/property/-webkit-mask-box-image-width)
+* [-webkit-mask-clip](http://css-infos.net/property/-webkit-mask-clip)
+    * border-box
+    * padding-box
+    * content-box
+* [-webkit-mask-composite](http://css-infos.net/property/-webkit-mask-composite)
+* [-webkit-mask-image](http://css-infos.net/property/-webkit-mask-image)
+* [-webkit-mask-origin](http://css-infos.net/property/-webkit-mask-origin)
+    * border
+    * content
+    * padding
+* [-webkit-mask-position](http://css-infos.net/property/-webkit-mask-position)
+* [-webkit-mask-repeat](http://css-infos.net/property/-webkit-mask-repeat)
+* [-webkit-mask-size](http://css-infos.net/property/-webkit-mask-size)
+* [order](http://css-infos.net/property/order)
+* [-webkit-perspective](http://css-infos.net/property/-webkit-perspective)
+    * none
+    * 2
+* [-webkit-perspective-origin](http://css-infos.net/property/-webkit-perspective-origin)
+* [-webkit-print-color-adjust](http://css-infos.net/property/-webkit-print-color-adjust)
+* [-webkit-rtl-ordering](http://css-infos.net/property/-webkit-rtl-ordering)
+    * logical
+    * visual
+* [-webkit-tap-highlight-color](http://css-infos.net/property/-webkit-tap-highlight-color)
+* [-webkit-text-combine](http://css-infos.net/property/-webkit-text-combine)
+* [-webkit-text-decorations-in-effect](http://css-infos.net/property/-webkit-text-decorations-in-effect)
+* [-webkit-text-emphasis-color](http://css-infos.net/property/-webkit-text-emphasis-color)
+* [-webkit-text-emphasis-position](http://css-infos.net/property/-webkit-text-emphasis-position)
+* [-webkit-text-emphasis-style](http://css-infos.net/property/-webkit-text-emphasis-style)
+* [-webkit-text-fill-color](http://css-infos.net/property/-webkit-text-fill-color)
+    * currentcolor
+    * -webkit-activelink
+    * -webkit-link
+    * -webkit-text
+* [-webkit-text-orientation](http://css-infos.net/property/-webkit-text-orientation)
+* [-webkit-text-security](http://css-infos.net/property/-webkit-text-security)
+    * circle
+    * disc
+    * none
+    * square
+* [-webkit-text-stroke-color](http://css-infos.net/property/-webkit-text-stroke-color)
+* [-webkit-text-stroke-width](http://css-infos.net/property/-webkit-text-stroke-width)
+* [-webkit-transform](http://css-infos.net/property/-webkit-transform)
+* [-webkit-transform-origin](http://css-infos.net/property/-webkit-transform-origin)
+* [-webkit-transform-style](http://css-infos.net/property/-webkit-transform-style)
+    * flat
+    * preserve-3d
+* [-webkit-transition-delay](http://css-infos.net/property/-webkit-transition-delay)
+* [-webkit-transition-duration](http://css-infos.net/property/-webkit-transition-duration)
+* [-webkit-transition-property](http://css-infos.net/property/-webkit-transition-property)
+* [-webkit-transition-timing-function](http://css-infos.net/property/-webkit-transition-timing-function)
+* [-webkit-user-drag](http://css-infos.net/property/-webkit-user-drag)
+    * auto
+    * element
+    * none
+* [-webkit-user-modify](http://css-infos.net/property/-webkit-user-modify)
+    * read-only
+    * read-write
+    * read-write-plaintext-only
+* [-webkit-user-select](http://css-infos.net/property/-webkit-user-select)
+    * none
+    * text
+    * all
+* [-webkit-writing-mode](http://css-infos.net/property/-webkit-writing-mode)
+* [-webkit-app-region](http://css-infos.net/property/-webkit-app-region)
+* [buffered-rendering](http://css-infos.net/property/buffered-rendering)
+* [clip-path](http://css-infos.net/property/clip-path)
+* [clip-rule](http://css-infos.net/property/clip-rule)
+* [mask](http://css-infos.net/property/mask)
+* [filter](http://css-infos.net/property/filter)
+* [flood-color](http://css-infos.net/property/flood-color)
+* [flood-opacity](http://css-infos.net/property/flood-opacity)
+* [lighting-color](http://css-infos.net/property/lighting-color)
+* [stop-color](http://css-infos.net/property/stop-color)
+* [stop-opacity](http://css-infos.net/property/stop-opacity)
+* [color-interpolation](http://css-infos.net/property/color-interpolation)
+* [color-interpolation-filters](http://css-infos.net/property/color-interpolation-filters)
+* [color-rendering](http://css-infos.net/property/color-rendering)
+* [fill](http://css-infos.net/property/fill)
+* [fill-opacity](http://css-infos.net/property/fill-opacity)
+* [fill-rule](http://css-infos.net/property/fill-rule)
+* [marker-end](http://css-infos.net/property/marker-end)
+* [marker-mid](http://css-infos.net/property/marker-mid)
+* [marker-start](http://css-infos.net/property/marker-start)
+* [mask-type](http://css-infos.net/property/mask-type)
+* [shape-rendering](http://css-infos.net/property/shape-rendering)
+* [stroke](http://css-infos.net/property/stroke)
+* [stroke-dasharray](http://css-infos.net/property/stroke-dasharray)
+* [stroke-dashoffset](http://css-infos.net/property/stroke-dashoffset)
+* [stroke-linecap](http://css-infos.net/property/stroke-linecap)
+* [stroke-linejoin](http://css-infos.net/property/stroke-linejoin)
+* [stroke-miterlimit](http://css-infos.net/property/stroke-miterlimit)
+* [stroke-opacity](http://css-infos.net/property/stroke-opacity)
+* [stroke-width](http://css-infos.net/property/stroke-width)
+* [alignment-baseline](http://css-infos.net/property/alignment-baseline)
+* [baseline-shift](http://css-infos.net/property/baseline-shift)
+* [dominant-baseline](http://css-infos.net/property/dominant-baseline)
+* [kerning](http://css-infos.net/property/kerning)
+* [text-anchor](http://css-infos.net/property/text-anchor)
+* [writing-mode](http://css-infos.net/property/writing-mode)
+* [glyph-orientation-horizontal](http://css-infos.net/property/glyph-orientation-horizontal)
+* [glyph-orientation-vertical](http://css-infos.net/property/glyph-orientation-vertical)
+* [vector-effect](http://css-infos.net/property/vector-effect)
